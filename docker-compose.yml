@@ -9,10 +9,10 @@ services:
       container_name: 'node.test'
       tty: true
       environment:
-        - NODE_ENV=production
+        - NODE_ENV=development
       volumes:
         - ./:/home/node/app
       ports:
         # Here set you personal port
         - 9000:9000
-      command: 'npm run dev'
+      # command: 'npm run test:init'
