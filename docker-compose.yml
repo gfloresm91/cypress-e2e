@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+
+  node.test:
+      image: node:8.0
+      user: 'node'
+      working_dir: /home/node/app
+      container_name: 'node.test'
+      tty: true
+      environment:
+        - NODE_ENV=production
+      volumes:
+        - ./:/home/node/app
+      ports:
+        # Here set you personal port
+        - 9000:9000
+      command: 'npm run dev'
