@@ -25,8 +25,9 @@ $ npm run test-dev
 
 - Instalación de cypress en el proyecto
 - Dependencia npm-run-all para correr multiples comandos en paralelo
-
-
+- Principales comandos de cypress
+- Selección e interacciones de elementos
+- Aserciones para verificar casos erróneos y correctos
 
 ### Licencia
 
