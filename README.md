@@ -13,6 +13,21 @@ $ npm install
 $ npm run dev
 ```
 
+Para ejecutar las pruebas
+``` bash
+$ npm run test-dev
+```
+## Consideraciones para el desarrollo
+
+**Este proyecto solo funciona con node 8.0**
+
+## Conceptos vistos
+
+- Instalación de cypress en el proyecto
+- Dependencia npm-run-all para correr multiples comandos en paralelo
+
+
+
 ### Licencia
 
 Copyright 2018 Savvy Apps
