@@ -29,6 +29,7 @@ $ npm run test-dev
 - Selección e interacciones de elementos
 - Aserciones para verificar casos erróneos y correctos
 - Hooks integrados en cypress
+- Fixtures, variables y alias para cargar datos de prueba desde archivo externo
 
 ### Licencia
 
