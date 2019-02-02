@@ -1,7 +1,7 @@
 .DS_Store
 node_modules/
 /dist/
-tests/cypress/screenshots/*
+test/cypress/screenshots/*
 tests/cypress/videos/*
 npm-debug.log*
 yarn-debug.log*
@@ -19,3 +19,4 @@ firebase-admin-keys.json
 proyecto.zip
 
 config/firebase-admin-keys.json
+

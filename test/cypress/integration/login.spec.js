@@ -20,6 +20,9 @@ describe('Pruebas del login', () => {
         cy.get('@userData').then((userData) => {
             // Custom command
             cy.createUser(userData)
+
+            // Screenshots
+            cy.screenshot('create-user')
         })
     })
 
@@ -27,12 +30,20 @@ describe('Pruebas del login', () => {
         // Custom command        
         cy.loginUser('fail@test.com', 'qweasd')
         cy.get('.error-msg').should('be.visible')
+        // Screenshots
+        cy.screenshot('login-failed', {
+            blackout: [
+                '#email1'
+            ]
+        })
     })
 
     it('Debe logear un usuario', () => {
         cy.get('@userData').then((userData) => {
             // Custom command
             cy.loginUser(userData.email, userData.password)
+            // Screenshots
+            cy.screenshot('login-user')
             cy.contains('a', 'Dashboard').should('be.visible')
         })
     })

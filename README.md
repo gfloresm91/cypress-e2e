@@ -34,6 +34,7 @@ $ npm run test-dev
 - Ejecución de scripts para limpiar la base de datos
 - Comandos personalizados para reutilización de código
 - Variables de entorno en cypress
+- Capturas de pantallas
 
 ### Licencia
 
