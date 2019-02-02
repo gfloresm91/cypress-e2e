@@ -2,6 +2,11 @@
 
 describe('Pruebas del login', () => {
 
+    // Before all tests
+    before(() => {
+        cy.exec('npm run test-clean')
+    })
+
     // Before each test
     beforeEach(() => {
         // Load test data in fixture/user.json folder
@@ -11,8 +16,7 @@ describe('Pruebas del login', () => {
         cy.contains('h1', 'Bienvenido').should('be.visible')
     })
 
-    // Skip this test
-    it.skip('Debe registrar un usuario', () => {
+    it('Debe registrar un usuario', () => {
         cy.get('@userData').then((userData) => {
             cy.contains('Crear una cuenta').click()
             cy.get('#name').type(userData.name)

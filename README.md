@@ -17,6 +17,7 @@ Para ejecutar las pruebas
 ``` bash
 $ npm run test-dev
 ```
+
 ## Consideraciones para el desarrollo
 
 **Este proyecto solo funciona con node 8.0**
@@ -30,6 +31,7 @@ $ npm run test-dev
 - Aserciones para verificar casos erróneos y correctos
 - Hooks integrados en cypress
 - Fixtures, variables y alias para cargar datos de prueba desde archivo externo
+- Ejecución de scripts para limpiar la base de datos
 
 ### Licencia
 
