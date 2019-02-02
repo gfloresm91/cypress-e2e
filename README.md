@@ -33,6 +33,7 @@ $ npm run test-dev
 - Fixtures, variables y alias para cargar datos de prueba desde archivo externo
 - Ejecución de scripts para limpiar la base de datos
 - Comandos personalizados para reutilización de código
+- Variables de entorno en cypress
 
 ### Licencia
 

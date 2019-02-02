@@ -39,6 +39,6 @@ describe('Pruebas del login', () => {
 
     // After all test
     after(() => {
-        cy.log('Test finalizados')
+        cy.log('Tests finalizados')
     })
 })
