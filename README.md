@@ -28,6 +28,7 @@ $ npm run test-dev
 - Principales comandos de cypress
 - Selección e interacciones de elementos
 - Aserciones para verificar casos erróneos y correctos
+- Hooks integrados en cypress
 
 ### Licencia
 
