@@ -36,6 +36,7 @@ $ npm run test-dev
 - Variables de entorno en cypress
 - Capturas de pantallas
 - Depuración de las pruebas
+- Headless testing, ejecución de pruebas en producción
 
 ### Licencia
 
