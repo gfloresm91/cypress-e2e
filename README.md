@@ -37,6 +37,7 @@ $ npm run test-dev
 - Capturas de pantallas
 - Depuración de las pruebas
 - Headless testing, ejecución de pruebas en producción
+- Intellisense para el autocompletado de código
 
 ### Licencia
 
