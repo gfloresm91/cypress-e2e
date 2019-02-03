@@ -35,6 +35,7 @@ $ npm run test-dev
 - Comandos personalizados para reutilización de código
 - Variables de entorno en cypress
 - Capturas de pantallas
+- Depuración de las pruebas
 
 ### Licencia
 

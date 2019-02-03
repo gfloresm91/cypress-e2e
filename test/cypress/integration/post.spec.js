@@ -17,6 +17,8 @@ describe("Pruebas de post", () => {
         cy.get('@userData').then((userData) => {
             cy.get('textarea').type(Cypress.env('postContent'))
             cy.contains('button', 'Crear').as('botonCrear')
+                // Debug
+                // .debug()
             cy.get('@botonCrear').should('be.enabled')
             cy.get('@botonCrear').click()
             cy.contains('.col2 h5', userData.name).should('be.visible')

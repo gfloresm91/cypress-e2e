@@ -78,7 +78,8 @@
       "beforeEach",
       "before",
       "afterEach",
-      "after"
+      "after",
+      "Cypress"
     ]
   },
   "engines": {
